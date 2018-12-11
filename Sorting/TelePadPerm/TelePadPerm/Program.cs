@@ -10,6 +10,9 @@ namespace TelePadPerm
     {
         static void Main(string[] args)
         {
+            LeetCodeSoln leet = new LeetCodeSoln();
+            var result = leet.GetPerm("23");
+
             StringProcessor sp = new TelePadPerm.Program.StringProcessor();
             sp.TestStringProcessor();
         }
